@@ -1,0 +1,20 @@
+<nav style="background: #000">
+    <div class="nav-wrapper" style="background: #000">
+        <a href="index.html" class="brand-logo" style="font-family: SFBold;text-transform:uppercase">{{page.title}}</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            {% for my_page in site.pages %} {% if my_page.title %}
+            <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" style="color: #FFF">{{ my_page.title }}</a></li>
+            {% endif %} {% endfor %}
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            {% for my_page in site.pages %} {% if my_page.title %}
+            <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %} {% endfor %}
+        </ul>
+    </div>
+</nav>
+
+<script type="text/javascript">
+    $(".button-collapse").sideNav();
+</script>

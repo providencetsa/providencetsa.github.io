@@ -1,0 +1,59 @@
+--- 
+layout: default 
+---
+<div class="hero" id="hero" style="background:url(img/robotics-min.JPG);height: 100%;background-size:cover;background-position:center">
+    <div class="background" style="height: 100%" id="background">
+        <div class="container" style="color: #FFF;height: 100%" align="center">
+            <div class="element">
+                <h1 style="display:none">asdasdasd</h1>
+                <button style="font-family: SFBold" class="draw meet" id="tsaanimation" style="color: #FFF"><span id="tsa" style="font-family: SFBold">PHS TSA + Robotics</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+<h3 style="margin:0;display:none">asdasd</h3>
+<div class="row" style="">
+	<div class="col m4  s12" style="height: 100%;background: url(img/tsa-min.JPG);background-size:cover;padding:0" align="center">
+		<div style="height: 100%;background: rgba(255,26,0, 0.5);padding:0">
+			<a href="tsa.html"><button href="tsa" class="element center" style="width: 80%;height: 80%;color: #FFF">TSA</button></a>
+		</div>
+	</div>
+	<div class="col m4 s12" style="height: 100%;background: url(img/both-min.JPG);background-size:cover;padding:0" align="center">
+		<div style="height: 100%;background: rgba(25,25,112, 0.5);padding:0">
+			<a href="both.html"><button class="element center" style="width: 80%;height: 80%;color: #FFF">BOTH</button></a>
+		</div>
+	</div>
+	<div class="col m4 s12" style="height: 100%;background: url(img/robots-min.JPG);background-size:cover;padding:0" align="center">
+		<div style="height: 100%;background: rgba(0,0,0, 0.5);padding:0">
+			<a href="robotics.html"><button class="element center" style="width: 80%;height: 80%;color: #FFF">ROBOTICS</button></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.1/vivus.min.js"></script>
+<script type="text/javascript">
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    $(".row").css('height', $(window).width() / 4)
+    $(".hero").css('height', $(window).height() - $(".row").height())
+    $(".element").removeClass('element')
+} else {
+    $(".row").css('height', $(window).width() / 8)
+    $(".hero").css('height', $(window).height() - $(".row").height())
+}
+
+$(".center").css('font-size', $('h3').css('font-size'))
+
+$(".meet").mouseover(function() {
+    $(this).addClass('asd')
+})
+$("nav").hide()
+$(document).ready(function() {
+    setTimeout(function() {
+        $('#tsaanimation').mouseover();
+    }, 1000);
+    $("#tsa").css('font-size', $("h1").css('font-size'))
+    $("#background").removeClass('background').addClass('backgroundimg')
+})
+$("button").click(function() {
+	$(this).css('background', 'transparent')
+})
+</script>

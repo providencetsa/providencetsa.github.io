@@ -1,0 +1,21 @@
+---
+layout: default
+title: TSA Info
+category: tsa
+---
+<div class="home">
+    <div class="container" style="padding-top:0">
+        <h3>Things you need to know</h3>
+        <ul class="post-list">
+            {% for post in site.posts %}
+            {% if post.category == "tsa" or post.category == "both" %}
+            <li>
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    		  		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+</div>
