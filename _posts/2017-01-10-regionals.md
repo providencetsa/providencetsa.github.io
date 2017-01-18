@@ -5,14 +5,14 @@ date:   2017-01-10 10:39:55 -0400
 categories: jekyll update
 category: both
 ---
-##THINGS WE NEED FOR REGIONALS
+<h2>THINGS WE NEED FOR REGIONALS</h2>
 
-DUE **1/24**
+DUE <b>1/24</b>
 
-* (Emergency Contact Form)[http://goo.gl/forms/Qvc93Wmb2Q]
-* (Field Trip Form)[https://docs.google.com/document/d/1MIE-6UgNW34Jb1lo-iv3NkfRL2gikEVfY8VdlZjAaeI/edit?usp=sharing]
-* (Personal Liability Form - see page 2)[https://drive.google.com/drive/folders/0B4OfsS11bKy6YXdPTlh4bHU5Rnc]
-* $20 fieldtrip dues
-* $30 t-shirt money
+<li><a href="http://goo.gl/forms/Qvc93Wmb2Q">Emergency Contact Form</a></li>
+<li><a href="https://docs.google.com/document/d/1MIE-6UgNW34Jb1lo-iv3NkfRL2gikEVfY8VdlZjAaeI/edit?usp=sharing">Field Trip Form</a></li>
+<li><a href="https://drive.google.com/drive/folders/0B4OfsS11bKy6YXdPTlh4bHU5Rnc">Personal Liability Form (page 2)</a></li>
+<li>$20 Fieldtrip fees</li>
+<li>$30 T-shirt money</li>
 
 Also, if you haven't paid your dues, those are also due by Tuesday or you won't be part of the club!
