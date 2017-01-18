@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Regionals Info"
-date:   2016-09-14 10:39:55 -0400
+date:   2017-01-10 10:39:55 -0400
 categories: jekyll update
 category: both
 ---
